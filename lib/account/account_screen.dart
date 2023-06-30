@@ -29,6 +29,7 @@ class _AccountScreenState extends State<AccountScreen> {
       setState(() {
         userData = json.decode(response.body)['users'][0];
 
+        // Les champs addresse sont mis dans des variables afin de ne pas créer de bug à l'initialisation
         address1 = userData['address']['address'];
         address2 = userData['address']['postalCode'];
         address3 = userData['address']['city'];

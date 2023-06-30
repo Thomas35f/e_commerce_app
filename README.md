@@ -5,8 +5,8 @@ Un e-commerce simple en flutter
 ## Install
 
 ```sh
-- flutter pub get
-- flutter run
+flutter pub get
+flutter run
 ```
 
 ### Fonctionnement
